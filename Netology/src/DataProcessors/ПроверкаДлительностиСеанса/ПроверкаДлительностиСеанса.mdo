@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c269b5-0152-41c9-a775-5ad8ee74de9a">
+  <producedTypes>
+    <objectType typeId="2b7860c3-9b31-4e12-a80a-892110c4cdfd" valueTypeId="e315c53d-65cc-40f6-84a2-96e92d4b7bd1"/>
+    <managerType typeId="4f85eedd-2cbc-4305-8fee-9cc1adf274a0" valueTypeId="301bb085-8e2a-4073-88d2-2b699f164806"/>
+  </producedTypes>
+  <name>ПроверкаДлительностиСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка длительности сеанса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаДлительностиСеанса.Form.Форма</defaultForm>
+  <forms uuid="6f5d7f6e-83dc-4ff5-ba0d-97447ca4c523">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
