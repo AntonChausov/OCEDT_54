@@ -96,6 +96,7 @@
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <enums>Enum.Пол</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ТипыСобытий</enums>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40f7de0b-c30e-461f-b74c-923ef51ab50a">
+  <producedTypes>
+    <objectType typeId="b36a5b43-5110-48f2-9790-bfd4b5854ba9" valueTypeId="5b566319-13bd-44f3-a1b5-5505c1f8ab79"/>
+    <refType typeId="762d838d-7596-42d8-acb7-1888bfa931e1" valueTypeId="797ebc67-48e4-4033-92b8-3cc80dc50c6b"/>
+    <selectionType typeId="a7408bb3-258e-4c9b-bc70-d968986c833e" valueTypeId="0962de69-be44-4929-bb1d-39ccaf1c464d"/>
+    <listType typeId="5ff53ea6-06e8-4b86-a9e5-ce305cc6d3c7" valueTypeId="b1f028e8-af13-4878-ac11-38325ba37153"/>
+    <managerType typeId="f88d0a6e-4a3d-45cf-b43b-943e52bddbb4" valueTypeId="9a20d211-5a93-4c45-959a-2cc30473833b"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e2db1955-1890-4e53-9783-569410387fbd">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
